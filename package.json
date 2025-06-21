@@ -1,0 +1,15 @@
+{
+  "name": "fast-sqlite",
+  "version": "0.1.0",
+  "description": "Lightweight SQL-like database with a custom parser and .db file backend.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "dev": "tsup src/index.ts --watch",
+    "build": "tsup src/index.ts",
+    "test": "vitest"
+  },
+  "author": "Bartek",
+  "license": "MIT"
+}
